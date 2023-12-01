@@ -10,4 +10,6 @@ __pycache__/
 */migrations/
 db.sqlite3
 db.sqlite3-journal
-
+nohup.out
+passenger_wsgi.py
+tmp/
