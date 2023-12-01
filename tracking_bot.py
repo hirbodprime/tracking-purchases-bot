@@ -161,6 +161,7 @@ def country(update, context):
         update.message.reply_text('Unknown country number. Please try again or type /cancel to exit.')
         return COUNTRY
     else:
+        print('user joined')
         update.message.reply_text('Thank you for completing your profile!')
         return ConversationHandler.END
 
@@ -179,7 +180,7 @@ def state(update, context):
     user = UserModel.objects.get(user_id=str(user_id))
     user.state = state_name
     user.save()
-
+    print('user joined')
     update.message.reply_text('Thank you for completing your profile!')
     return ConversationHandler.END
 
