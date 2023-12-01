@@ -1,0 +1,13 @@
+/.env
+__pycache__/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.code-workspace
+*.zip
+*.DS_Store
+*/migrations/
+db.sqlite3
+db.sqlite3-journal
+
