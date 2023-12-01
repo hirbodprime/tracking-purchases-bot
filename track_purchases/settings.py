@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$ih+23je0y3gmiv&s-iv%uiz@um29o4y20p)v)v)k!h@)+gk%l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["hirbots.com","www.hirbots.com"]
+ALLOWED_HOSTS = ["hirbots.com","www.hirbots.com",'127.0.0.1']
 
 
 
