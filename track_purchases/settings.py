@@ -120,9 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '../tracking_purchases/static/'
+STATIC_ROOT = '../track_purchases/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '../tracking_purchases/media/'
+MEDIA_ROOT = '../track_purchases/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

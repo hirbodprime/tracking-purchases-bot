@@ -219,6 +219,7 @@ def add_paycheck(update, context):
         update.message.reply_text(f"Paycheck of {amount} recorded on {paycheck_date.strftime('%Y-%m-%d')}.")
     except (IndexError, ValueError):
         update.message.reply_text("Please provide the paycheck amount and date in the format: '/paycheck amount YYYY-MM-DD'.")
+
 @requires_profile_completion
 @requires_channel_membership
 def list_paychecks(update, context):
